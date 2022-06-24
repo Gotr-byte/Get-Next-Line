@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pbiederm <pbiederm@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/19 17:49:32 by pbiederm          #+#    #+#             */
-/*   Updated: 2022/06/24 15:00:36 by pbiederm         ###   ########.fr       */
+/*   Created: 2022/06/24 14:50:23 by pbiederm          #+#    #+#             */
+/*   Updated: 2022/06/24 15:00:29 by pbiederm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 void	*ft_calloc(size_t count, size_t size)
 {
@@ -104,7 +104,7 @@ char	*get_next_line(int fd)
 // 	int	i;
 
 // 	i = 0;
-// 	while (i < 4)
+// 	while (i < 5)
 // 	{
 // 		printf("gnl: %s", get_next_line(fd_to_read));
 // 		i++;
